@@ -1,1 +1,2 @@
-# Fine-Recycle-Project
+# Fine_Recycle Project
+--The industry is progressing day after day, and with its progress the number of industrial waste increases, but fortunately some forms of industrial waste are raw materials for other industries, so through this web application we work to provide communication between both sides of the equation: the owners of industrial waste and whom this waste is the raw material for their industry. Owners of industrial waste can display it on the site in the category designated for this type of raw material and specify details about it, such as its price, quantity, and specifications, and then whoever is interested can contact him through the added contact information and complete the deal.
