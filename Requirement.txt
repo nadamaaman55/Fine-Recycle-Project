@@ -1,0 +1,36 @@
+1-Sign up 
+1.1- The system shall provide the user that he creates an account 
+1.2- The system shall provide the user with entering the email, username, password, and confirm the password in order to make an account 
+2-Forget Password
+2.1- The system must provide the user with his password by sending it to his email.
+3- Manage profile 
+3.1- The system shall provide the user with managing his account such as changing the profile picture, password, the username or the email 
+4- Create ad
+4.1- The system shall allow the user to create an ad 
+4.2- The system shall provide the user to enter information about the advertisement such as category, amount, 
+price, description, phone number,(WhatsApp number, location, Facebook link and photos are optional) 
+4.3- The system shall provide the user with the choice of displaying the ad, he wants free ad or paid ad and choose between 
+features in paid ad.
+5- Manage ad
+5.1- The system shall provide the user with managing his ad by editing or deleting it 
+6- Add to Favourites
+6.1- The system shall allow any user to save any ad.
+7- Payment 
+7.1- The system shall provide the user with paying for the paid advertisement through the electronic wallet.
+7.2- The system shall provide the user with entering the electronic wallet number and the SMS code to 
+confirm the payment process (Vodafone, Etisalat, Orange).
+8- Communication
+8.1- The system shall provide the buyer with communicating with the seller 
+by showing him the possible means of communication like phone number,(WhatsApp number or Facebook Link in case user provides them).
+9- List categories 
+9.1- The system shall display to the user all existing categories.
+9.2- The system shall allow the user to select a specific category and see all the ads for this category.
+10- Search
+10.1- The system shall allow the user to search for a specific ad within the category.
+11- Reporting 
+11.1- The system shall allow the user to enter his problems related to the system or any suggestions.
+12- Administrate the system
+12.1- The system shall provide the admin with viewing reports and the possibility of managing them.
+12.2- The system shall allow an admin to add certain category.
+12.3- The system shall allow an admin to delete an ad.
+
