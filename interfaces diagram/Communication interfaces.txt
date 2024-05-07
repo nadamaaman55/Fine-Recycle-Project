@@ -1,0 +1,10 @@
+1- HTTP/HTTPS Protocol: Communication between clients' web browsers and the web server will occur over HTTP or HTTPS protocols, 
+ensuring secure and reliable data transmission.
+
+2- RESTful APIs: The website may provide RESTful APIs to allow external systems or applications to access and interact 
+with its data and functionalities programmatically.
+
+3- Email Integration: Email communication may be utilized for notifications, account verification and other processes.
+
+4- Contact Information Display: Users' contact information (email, addresses, phone numbers) will be displayed 
+on the website to facilitate direct communication between waste owners and potential buyers.
