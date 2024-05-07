@@ -1,0 +1,18 @@
+1- As a user I want to
+.Sign up
+.Login
+.Forget Password (Return Password)
+.Manage Profile
+.Create ad
+.Manage ad
+.Add to Favourites (Save)
+.Payment
+.Communication (Return communications means)
+.Search
+.Reporting (Any Feedback)
+
+2- As an Admin I want to
+.Login
+.Manage Profile
+.List Categories
+.Adminstrate The System
