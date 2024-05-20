@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Ad</title>
+    <style>
+        /* Add CSS styling here */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        #title {
+            color: rgb(133, 213, 188);
+            text-align: center;
+            padding: 30px ;
+        }
+
+        .main-content {
+            max-width: 1200px;
+            padding-left: 80px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%; /* Ensure #main-content takes up all available horizontal space */
+        }
+        .input-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 1px solid #808080; /* Only bottom border */
+            outline: none; /* Remove default focus outline */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+        .labelCon{
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 1px solid #808080; /* Only bottom border */
+            outline: none; /* Remove default focus outline */
+            box-sizing: border-box; 
+        }
+        #cars{
+            border: none;
+            outline: none;
+            color: #808080;
+            font-size: 16px;
+        }
+        .input-container input[type="text"]::placeholder {
+            color: #808080;
+        }
+
+        .load input[type="file"] {
+            display: none; /* Hide the file input */
+        }
+.load{
+    padding-top: 50px;
+    display: flex;
+      justify-content:space-between; 
+}
+        .upload-btn {
+            background-color: rgb(133, 213, 188);
+            color: white;
+            padding: 10px ;
+            margin-left: 80px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .upload-btn:hover {
+            background-color: rgb(103, 183, 158);
+        }
+
+        .secondLine {
+            max-width: 13000px;
+            display: flex;
+            align-items: center;
+            padding: 50px 80px;
+        }
+        .thirdLine{
+            max-width: 1300px;
+            padding-left: 80px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .button-container {
+            display: flex;
+            width: 100%;
+        }
+        .create-button {
+            width: 70%;
+            padding: 10px;
+            background-color: rgb(133, 213, 188);
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+      
+        .create-button:hover {
+            background-color: rgb(103, 183, 158);
+        }
+    </style>
+</head>
+<body>
+    <div id="title">
+        <h1>Create your ad</h1>
+    </div>
+    <div id="container">
+        <div Class="main-content">
+        <div class="labelCon">
+            <label for="cars" style="color: #808080;"> Choose Category</label>
+
+            <select name="Type" id="Type">
+              <option value="Wood">Wood</option>
+              <option value="Glass">Glass</option>
+              <option value="Plastics">Plastics</option>
+              <option value="Pepar">Pepar</option>
+              <option value="Metal">Metal</option>
+              <option value="Textile">Textile</option>
+              <option value="Leather">Leather</option>
+              <option value="Other">Other</option>
+            </select>
+        </div>   
+            
+            <div class="input-container">
+                <input type="text" id="Price" placeholder="Price" required>
+            </div>
+            <div class="input-container">
+                <input type="text" id="Amount" placeholder="Amount" required>
+            </div>
+            <div class="input-container">
+                <input type="text" id="Describtion" placeholder="Describtion" required>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="input-container">
+                <input type="text" id="Location" placeholder="Location" required>
+            </div>
+            <div class="input-container">
+                <input type="text" id="PhoneNumber" placeholder="Phone Number" required>
+            </div>
+            <div class="input-container">
+                <input type="text" id="WhatsApp" placeholder="WhatsApp (optional)" >
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="input-container" style="width: 100%;">
+                <input type="text" id="Facebook" placeholder="Facebook link (optional)">
+            </div>
+        </div>
+        <div class="load">
+            <input type="file" id="imgUpload" accept="image/*">
+            <label for="imgUpload" class="upload-btn">Upload Image</label>
+            
+            
+        </div>
+
+
+        <div style="align-items: center; margin: auto ; margin-left: 70%;">
+        <div class="button-container">
+            <button class="create-button" onclick="OO()">Create Free Ad</button>
+        </div>
+        <br>
+        <div class="button-container">
+            <button class="create-button" onclick="window.location.href='./Features.html'">Premium Ad</button>
+        </div>
+    </div>
+   
+    </div>
+       
+
+
+    <script src="../Javascript/create-ad.js"></script>
+    
+</body>
+</html>
